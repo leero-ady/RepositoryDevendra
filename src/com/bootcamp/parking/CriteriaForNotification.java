@@ -1,0 +1,15 @@
+package com.bootcamp.parking;
+
+public enum CriteriaForNotification {
+	NOT_FUll,
+	TEN_PERCENT,
+	TWENTY_PERCENT,
+	THIRTY_PERCENT,
+	FORTY_PERCENT,
+	FIFTY_PERCENT,
+	SIXTY_PERCENT,
+	SEVENTY_PERCENT,
+	EIGHTY_PERCENT,
+	NINETY_PERCENT,
+	FULL
+}
