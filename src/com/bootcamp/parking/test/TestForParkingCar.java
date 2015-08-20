@@ -195,6 +195,7 @@ public class TestForParkingCar extends TestCase{
 	
 	@Test
 	public void shouldReturnParkingLotWithAvailableSpace() throws AllParkingLotsFullException {
+		
 		ParkingLotAttendant attendant = new ParkingLotAttendant();
 		ParkingLotOwner lotOwner = mock(ParkingLotOwner.class);
 		ParkingLotOwner lotOwnerTwo = mock(ParkingLotOwner.class);
